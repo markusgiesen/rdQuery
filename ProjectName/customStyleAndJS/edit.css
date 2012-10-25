@@ -1,0 +1,445 @@
+/* RedDots CSS file */
+.redDot,
+.reddot,
+.reddotnowrap,
+.redDot a,
+.reddot a,
+.reddotnowrap a {
+    color: red !important;
+    font-size: 11px !important;
+	clear: both;
+	margin: 0 !important;
+	padding: 0 0 5px 0 !important;
+	font-family: Arial !important;
+	line-height: 14px !important;
+}
+
+.redDot a:hover,
+.reddot a:hover,
+.reddotnowrap a:hover {
+	text-decoration: none !important;
+}
+.reddotnopdg {
+	padding: 0 !important;
+}
+
+/* reddot custom add button
+		
+*/
+.reddot-custom-add {
+	cursor: pointer;
+	xfloat: right !important;
+	margin-right: 10px !important;
+}
+.reddot-menu {
+	float: left;
+	margin-bottom: 4px !important;
+}
+
+.reddot-custom-add-menu:hover, .reddot-custom-add-menu.reddot-custom-add-menu-display {
+	background-color: #ffe7e7 !important;
+}
+
+.reddot-custom-add-menu  > ul {
+	list-style: none;
+	padding: 2px 0;
+	clear: left;
+}
+
+.reddot-custom-add-menu.reddot-custom-add-menu-display  > ul > li {
+	display: block;
+}
+
+.reddot-custom-add-menu  > ul > li {
+	display: none;
+	clear: left;
+	padding: 5px 0;
+}
+
+.reddot-custom-add-menu > ul  > li a {
+	border: none;
+}
+
+.reddot-custom-add-menu > ul  > li a:hover {
+	width: 100%;
+}
+
+div .reddot-menu .reddot-custom-add {
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+}
+div .reddot-menu .reddot-custom-add a {
+	margin-bottom: 0 !important;
+	text-decoration: none !important;
+}
+
+.reddot.left {
+	clear: none !important;
+	float: left !important;
+}
+	.reddot-custom-add.left {
+		margin-top: -3px !important;
+	}
+	.reddot .left {
+		clear: none !important;
+		float: left !important;
+	}
+	.reddot td.left { /* reset for table cells */
+		clear: none !important;
+		float: none !important;
+	}
+	.reddot .right {
+		clear: none !important;
+		float: right !important;
+	}
+	
+.reddot-custom-add a {
+	background: url("../img/icon_reddot_custom.gif") no-repeat scroll 0 2px transparent;
+	border: 1px solid #fff;
+	xbackground: #ffe7e7 !important;
+	display: block;
+	background: url("/cms/WebClient/App_Themes/Standard/Images/Icons/icon_reddot.png") no-repeat scroll 0 2px transparent;
+	margin-bottom: 4px !important;
+	padding: 3px 4px 2px 18px !important;
+	
+	xwidth: 70px;
+}
+.reddot-custom-add a:hover {
+	border: 1px solid #f00;
+	background-color: #ffe7e7 !important;
+}
+
+
+.reddot-hover .reddot-custom-delete,
+.reddot-hover-parent .reddot-parent-custom-delete {
+	background: url("/cms/WebClient/App_Themes/Standard/Images/Icons/icon_reddot.png") no-repeat scroll 0 2px #fff;
+	cursor:pointer;
+	position: absolute; 
+	margin: -12px 0 0 0; 
+	z-index: 50; 
+	padding: 3px 4px 2px 18px !important;
+	right: 0; 
+}
+.reddot-hover .reddot-custom-delete:hover,
+.reddot-hover-parent .reddot-parent-custom-delete:hover {
+	background-color: #ffe7e7 !important;
+}
+
+#context .reddot-hover .reddot-custom-delete,
+#context .reddot-hover-parent .reddot-parent-custom-delete {
+	right: 18px; 
+}
+
+/* this is for delete items in the nav and it's rather hacky, this should be refactored */
+#contentWrapper div#wrap div#secondaryNavigation ul#sideNav li .right {
+	background: none repeat scroll 0 0 #f00;
+    display: none;
+    height: 12px;
+    padding: 0 !important;
+    position: absolute;
+    right: 30px;
+    width: 12px;
+}
+#contentWrapper div#wrap div#secondaryNavigation ul#sideNav li:hover .right {
+	display: block;
+}
+#contentWrapper div#wrap div#secondaryNavigation ul#sideNav li .right:hover {
+    width: auto;
+}
+#contentWrapper div#wrap div#secondaryNavigation ul#sideNav li .reddot-custom-delete {
+	background: url("/cms/WebClient/App_Themes/Standard/Images/Icons/icon_reddot.png") no-repeat scroll 0 2px #fff !important;
+    border: 1px solid #f00 !important;
+	cursor: pointer;
+    display: none !important;
+    margin: 0 !important;
+    padding: 3px 4px 2px 18px !important;
+    position: absolute;
+    right: 0;
+    text-decoration: none !important;
+    white-space: nowrap;
+    width: auto !important;
+    z-index: 50;
+}
+div#contentWrapper div#wrap div#secondaryNavigation ul#sideNav .reddot-hover-delete-clicked p,
+div#contentWrapper div#wrap div#secondaryNavigation ul#sideNav .reddot-hover-delete-clicked p .reddot-custom-delete,
+#contentWrapper div#wrap div#secondaryNavigation ul#sideNav p:hover .reddot-custom-delete {
+	display: block !important;
+	width: auto !important;
+}
+#contentWrapper div#wrap div#secondaryNavigation ul#sideNav li .reddot-custom-delete:hover {
+	background: #ffe7e7 !important;
+}
+
+
+
+/* reddot hover box 
+		* delete button styles
+*/
+.reddot-hover  {
+}
+#contentArea .reddot-hover  {
+	float: left;
+	width: 100%;
+}
+	.reddot-hover .reddot-custom-delete {
+		border: 1px solid #f00;
+		display: none;
+	}
+#contentArea .reddot-hover:hover {
+	background: #ffe7e7;
+}
+	.reddot-hover-delete-clicked .reddot-custom-delete,
+	.reddot-hover:hover .reddot-custom-delete {
+		display: block;
+	}
+	
+#contentArea .reddot-hover-active:hover {
+	background: none;
+}
+
+/* reddot hover box for parent blocks
+		* delete button styles
+*/
+.reddot-hover  {
+}
+#contentArea .reddot-hover-parent  {
+	float: left;
+	width: 100%;
+}
+	.reddot-hover-parent .reddot-parent-custom-delete {
+		border: 1px solid #f00;
+		display: none;
+	}
+#contentArea .reddot-hover-parent:hover {
+	background: #fff;
+}
+	.reddot-hover-delete-clicked .reddot-parent-custom-delete,
+	.reddot-hover-parent:hover .reddot-parent-custom-delete {
+		display: block;
+	}
+	
+#contentArea .reddot-hover-parent-active:hover {
+	background: none;
+}
+
+
+
+.redDot p,
+.reddot p,
+.reddotnowrap p
+{
+	font-family: Arial;
+	color: red;
+	font-size: 11px !important;
+	line-height: 20px;
+}
+
+.reddotbgw {
+	background: #fff;
+	padding-left: 5px;
+}
+
+p.preview
+{
+	font-size: 18px;
+}
+
+.reddotnowrap {
+	text-decoration: nowrap;
+}
+.reddotnowrap div {
+    color: red;
+    font-size: 10px;
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+.reddotnowrap img,
+.redDot img,
+.reddot img {
+    align: bottom;
+    margin-bottom: -4px !important;
+    margin-right: 2px !important;
+}
+
+.container 
+{
+	top: 0;
+	left: 0;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+div.global .reddot
+{
+	display: none !important;
+}
+
+span.status.Released {
+	padding: 0 4px;
+	color: #fff;
+	background: #228b22;
+}
+
+span.status.WaitingForRelease {
+	padding: 0 4px;
+	color: #fff;
+	background: #FFA500;
+}
+
+span.status.CheckedOut {
+	padding: 0 4px;
+	color: #fff;
+	background: #CD3700;
+}
+
+
+body div#cmstoolbar {
+	background: #fff;
+}
+body div#cmstoolbar {
+	font-family: Arial !important;
+}
+body div#cmstoolbar #cmsmenuinsert {
+	height: 41px;
+	overflow: hidden;
+	display: block;
+}
+body div#cmstoolbar .pagesettings {
+	height: 81px;
+	overflow: hidden;
+	display: block;
+}
+body div#cmstoolbar.loaded .pagesettings {
+	height: auto;
+}
+
+/* 
+
+               EVERYTHING AFTER THIS AFTER THIS COMMENT CAN BE REMOVED FOR YOUR PROJECT
+
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+	font-family: Arial;
+}
+
+h1 {
+	font-size: 24px;
+	margin: 12px 0;
+}
+
+
+
+
+
+
+/* simple 3 column CSS */
+#page {
+	width:960px;
+	margin:0 auto;
+	background:#ddd;
+}
+#header {
+	padding:10px;
+	background:#fdd;
+}
+#content-1 {
+	float:left;
+	width:220px;
+	padding:10px;
+	background:#bfb;
+}
+#content-2 {
+	float:right;
+	width:720px;
+}
+#content-2-1 {
+	float:left;
+	width:460px;
+	padding:10px;
+	background:#ddf;
+}
+#content-2-2 {
+	float:right;
+	width:220px;
+	padding:10px;
+	background:#dff;
+}
+#footer {
+	padding:10px;
+	background:#ff9;
+}
+/* Easy clearing of floats (see http://positioniseverything.net/easyclearing.html) */
+.cf:after {
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	content:" ";
+	font-size:0;
+}
+/* Does not validate – use conditional comments for this bit if you want valid CSS */
+.cf {*zoom:1;}
+
+
+
+
+
+
+
+
+
+
+
