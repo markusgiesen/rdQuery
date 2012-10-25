@@ -47,6 +47,7 @@ Same as above, just for new content blocks in a different column
 
 
 ### Files, folders and purpose
+ * **ToolbarDemo.zip** - THIS IS IT. The OpenText demo CMS project that shows you how to use the plugin.
  * **ProjectName/customStyleAndJS/edit.js** - This file allows for CMS specific Javascript actions within your CMS project
  * **ProjectName/customStyleAndJS/edit.css** - This file allows for CMS specific CSS rules within your CMS project
  * **ProjectName/rqljs/css** - This folder contains CSS files to style the custom reddots and the toolbar within CMS content pages.
@@ -58,3 +59,13 @@ Same as above, just for new content blocks in a different column
 To edit this file you can develop and test it on a development environment. 
 Use Firefox' Firebug extension and test the result in FF and IE. 
 Then simply commit it to a code repository of your choosing and deploy to UAT and then PROD.
+
+### Disclaimer
+ * this project was an idea from back in 2008/2009 and has been refined over the last 3 years
+ * I am not affiliated with OpenText and this Software is published by myself and has nothing to do with my employer 
+ * This software comes "as is" and without any guarantee to work and/or not break anything
+
+### DISCLAIMER OF WARRANTY
+The Software is provided "AS IS" and "WITH ALL FAULTS," without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. The Developer makes no warranty that the Software is free of defects or is suitable for any particular purpose. In no event shall the Developer be responsible for loss or damages arising from the installation or use of the Software, including but not limited to any indirect, punitive, special, incidental or consequential damages of any character including, without limitation, damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses. The entire risk as to the quality and performance of the Software is borne by you. Should the Software prove defective, you and not the Developer assume the entire cost of any service and repair.
+(YAY for lawyer land !)
+ 
