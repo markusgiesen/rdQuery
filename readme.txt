@@ -6,6 +6,8 @@ First publication to Git: 2012-10-25
 
 Current version: 1.0
 
+Website: http://reddotcmsblog.com
+
 ### Requirements
  * jQuery and jQuery UI (referenced from Google CDN)
  * .net Framework running 
