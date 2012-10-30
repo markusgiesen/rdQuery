@@ -24,7 +24,7 @@ For the webservices connected via AJAX you also need to set:
       </webServices>
     </system.web>
 
-Inside the the <OTCMS install folder>/ASP/web.config
+Inside the <OTCMS install folder>/ASP/web.config
 
 ### Integration and usage of RQL JS plugin
 There are two static plugin components used for this project to customise and enhance the usability of the CMS. This chapter describes both plugins, their usage and integration points
